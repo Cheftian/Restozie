@@ -1,0 +1,108 @@
+*{
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+
+.custom-hyperlink-menu{
+    text-decoration: none;
+    color:black;
+    margin: 20px;
+}
+.custom-font{
+    size: 12px;
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    padding: 0px 0px 10px 0px
+}
+
+.header{
+    background-color: #cad2c5;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  
+}
+
+.custom-hyperlink-hubungi{
+    text-decoration: none;
+    color:black;
+    margin: 20px;
+}
+
+.custom-card-text{
+    padding: 10px;
+    font-weight: 500;
+}
+
+
+.custom-select{
+    width: 200px;
+    border: 3px solid black;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.custom-button{
+    width: 325px;
+    border-radius: 10px;
+}
+.custom-buttona{
+    width: 155px;
+    border-radius: 10px;
+}
+
+.container-width{
+    padding: 40px 100px 20px 100px;
+}
+
+.container-center{
+    display: flex;
+    justify-content: center; /* Membuat konten berada di tengah secara horizontal */
+    align-items: center; /* Membuat konten berada di tengah secara vertikal */
+    
+
+}
+
+.custom-heading{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.custom-card{
+
+    border:3px solid black;
+    border-radius: 10px;
+}
+
+hr{
+    border: 3px solid black;
+    opacity: 1;
+    margin: 0;
+    
+}
+
+body {
+    background: rgba(255, 255, 255, 0.65);
+    background-image: url('Assets/background.jpg');
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Menetapkan tinggi minimum sesuai tinggi viewport */
+    margin: 0; /* Menghapus margin bawaan body */
+    
+}
+  
+footer{
+    background-color: #cad2c5;
+
+    
+}
